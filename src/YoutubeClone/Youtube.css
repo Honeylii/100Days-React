@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=League+Spartan&family=Poppins&family=Raleway:ital@1&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 12px;
+    max-width: 90%;
+    /* max-height: 100vh; */
+    margin: 1rem auto;
+    border: 1px solid #b95b5b;
+    line-height: 16px ; 
+    
+}
+img{
+    width: 100%;
+}
+
+/* Vidoe-Deatials */
+.video-section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video-section{
+    /* padding: 1rem 0; */
+    display: grid;
+    grid-template-columns:3.5fr 1fr;
+    gap: 0.8rem;
+}
+
+/* YouSearch Bar */
+
+.search-bar{
+    width: 100%;
+    padding: 1rem 0;
+}
+form{
+    width: 90% ;
+    margin: 0 auto;
+}
+.search-label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* margin-bottom: 12px; */
+    /* letter-spacing: 2px; */
+}
+input{
+    width: 100%;
+    font-size: 1.5rem;
+    text-indent: 1rem;
+    outline: none;
+    border: 1px solid #333;
+    padding: 0.4rem ;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Render-list */
+.render-list{
+    width: 16rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0.3rem 0;
+    border: 1px solid gray;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+
+/* Video-Details */
+.video-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.video-display{
+    height: 20rem;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid  gray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.description-title{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.video-description-container{
+    /* height: 5rem; */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.iframe{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .render-list{
+        width: 28rem
+    }
+    
+}

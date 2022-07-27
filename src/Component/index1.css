@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.2rem 2rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+}
+
+input{
+    width: 90%;
+    margin: 0.5rem 0 ;
+    text-indent: 12px;
+    padding: 0.6rem;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid cadetblue;
+    border-radius: 0.7rem;
+} 
+
+
+/* ImageList */
